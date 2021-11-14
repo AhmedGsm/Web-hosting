@@ -95,18 +95,16 @@ nav {
     background-position: center;
 }
  header {
-     width: 84%;
+     width: 83%;
      margin: 0 auto 80px 8%;
+     display: flex;
  }
 
  /* Tab container style */
- .main-container {
-    width: 60%;
-}
 
 .services-container {
     width: 50%;
-    margin-right: 5%;
+    margin-right: 7%;
 }
 
 .tabs-container {
@@ -200,4 +198,8 @@ nav {
 }
 .buttons-nav li:first-child  {
     margin-right: 4%;
+}
+
+.woman-image {
+    margin-top: 16px;
 }
