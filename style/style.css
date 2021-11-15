@@ -98,6 +98,7 @@ nav {
      width: 83%;
      margin: 0 auto 80px 8%;
      display: flex;
+     justify-content: space-between;
  }
 
  /* Tab container style */
@@ -199,7 +200,14 @@ nav {
 .buttons-nav li:first-child  {
     margin-right: 4%;
 }
-
+.header-image {
+    display: flex;
+    /*justify-content: flex-end;*/
+    align-items: flex-start;
+}
 .woman-image {
     margin-top: 16px;
+    width: 100%;
+    height: auto;
+    max-width: 501px;
 }
