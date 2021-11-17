@@ -95,10 +95,11 @@ nav {
     background-position: center;
 }
  header {
-     width: 83%;
-     margin: 0 auto 80px 8%;
-     display: flex;
-     justify-content: space-between;
+    width: 83%;
+    margin: 0 auto 80px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
  }
 
  /* Tab container style */
@@ -200,14 +201,42 @@ nav {
 .buttons-nav li:first-child  {
     margin-right: 4%;
 }
-.header-image {
+
+.woman-image-container {
     display: flex;
-    /*justify-content: flex-end;*/
     align-items: flex-start;
+    position: relative;
 }
+
+.triangle  {
+    background-color: #B00000;
+    position: absolute;
+}
+
+.big-trianlge {
+    width: 13%;
+    height: 13%;
+    clip-path: path("M72 72H0L72 0V72Z");
+    top: 78%;
+    right: 0;
+}
+
+.small-left-trianlge {
+    width: 40px;
+    height: 40px;
+    clip-path: path("M40 40H0L40 0V40Z");
+}
+
+.small-right-trianlge {
+    width: 40px;
+    height: 40px;
+    clip-path: path("M0 40H40L0 0V40Z");
+}
+
 .woman-image {
-    margin-top: 16px;
+    margin: 16px 2% 0;
     width: 100%;
     height: auto;
     max-width: 501px;
+    /*position: relative;*/
 }
