@@ -4,16 +4,17 @@
     --primary-font: "Poppins" ,arial;
     --secondary-font: "Inter" ,arial;
 }
-body {
-   /* height: 100vh;*/
 
-}
-
-body, ul {
-    margin: 0;
-    padding: 0;
+body{
     font-family: var(--primary-font);
 }
+
+/* Make margin, padding 0 */
+body, ul, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
 
 .navbar-wrapper {
     width: 78%;
@@ -40,6 +41,7 @@ nav {
     color: black;
     font-size: 1em;
 }
+
 .primary-nav li {
     flex-grow: 9;
     list-style-type: none;
@@ -254,4 +256,57 @@ header {
     width: 100%;
     height: auto;
     max-width: 501px;
+}
+
+.section-definition {
+    width: 89%;
+    margin: 0 auto 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.div-definition {
+    width: 46%;
+}
+
+.div-definition h3 {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.div-definition p {
+    font-family: var(--secondary-font);
+    font-size: 1.125em;
+    line-height: 32px;
+    /* or 178% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    margin: 48px 0;
+}
+
+.div-web-tools {
+    width: 48%;
+    display: grid;
+    /*
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    */
+}
+
+.div-images-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 92px;
 }
