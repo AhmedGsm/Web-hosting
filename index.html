@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script async src="js/tabs.js" ></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/widgets.css">
     <title>Lemon Wares Web Hosting</title>
 </head>
 <body>
     <div class="navbar-wrapper">
         <!--Logo-->
         <img src="images/logo.svg" alt="Web site Logo" >
-        <link rel="stylesheet" href="style/style.css">
         <!--Navigation menu-->
         <nav class="nav">
             <ul class="primary-nav list-menu">
@@ -30,10 +30,10 @@
             <!--tabs container-->
             <div class="tabs-container">
                 <ul>
-                    <li><a class="buttons displayed-button-tab" href="#">Hosting</a></li>
-                    <li><a class="buttons hidden-button-tab" href="#">Domain</a></li>
-                    <li><a class="buttons hidden-button-tab" href="#">SEO</a></li>
-                    <li><a class="buttons hidden-button-tab" href="#">Email</a></li>
+                    <li><a class="buttons displayed-button-tab" href="">Hosting</a></li>
+                    <li><a class="buttons hidden-button-tab" href="">Domain</a></li>
+                    <li><a class="buttons hidden-button-tab" href="">SEO</a></li>
+                    <li><a class="buttons hidden-button-tab" href="">Email</a></li>
                 </ul>
                 <div class="tab-content" id="fragment-1">
                     <h1>Premium Web Hosting for Your Website</h1>
@@ -244,17 +244,31 @@
         <section class="section-plans">
             <h2>Ready to get started with Lemon Wares?</h2>
             <p>Choose the package that suits you</p>
-            <div>
+            <div class="plans-periods">
                 <p>Monthly</p>
                 <div class="switch-container">
                     <div class="switch-ball">
                     </div>
                 </div>
                 <p>Yearly</p>
-                <p>20% discount</p>
+                <p class="paragraph-discount">20% discount</p>
             </div>
+            <div class="tabs-container">
+                <ul>
+                  <li><a class="buttons displayed-button-tab" href="">Basic</a></li>
+                  <li><a class="buttons hidden-button-tab" href="">Premium</a></li>
+                </ul>
+                <div class="tab-content">
+                    Plan 1
+                </div>
+                <div class="tab-content">
+                    Plan 2
+                </div>
+            </div>
+          
         </section>
 
     </main>
+    <script async src="js/widgets.js"></script>
 </body>
 </html>

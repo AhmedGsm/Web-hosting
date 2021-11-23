@@ -337,3 +337,41 @@ header {
     line-height: 18px;
     text-align: center;
 }
+
+.section-plans {
+    width: 76%;
+    margin: 0 auto 105px;
+}
+
+.section-plans h2 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 38px;
+    font-weight: 600;
+    font-size: 3.125em;
+    line-height: 60px;
+}
+
+.plans-periods {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 56px auto 70px;
+}
+
+.section-plans p {
+    text-align: center;
+    font-size: 1.57em;
+    line-height: 25px;
+}
+
+.section-plans .paragraph-discount {
+    background: #FFE87A;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 10px;
+    padding: 8px;
+}
