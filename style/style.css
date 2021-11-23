@@ -296,14 +296,11 @@ header {
 .div-web-tools {
     width: 48%;
     display: grid;
-    /*
+    grid-template-columns: repeat(auto-fit, 172px);
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    */
 }
 
-.div-images-tools {
+.div-image-tools {
     display: flex;
     justify-content: center;
     align-items: center;
