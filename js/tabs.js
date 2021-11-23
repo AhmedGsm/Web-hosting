@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    console.log("Windows loaded!!");
+    // Tabs Services
     // Get button DOM
     var buttons = document.getElementsByClassName("buttons");
     // Get contents divs containers
