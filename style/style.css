@@ -120,13 +120,28 @@ header {
     margin-bottom: 60px;
 }
 
-.tabs-container ul {
+.tabs-container>ul {
     display: flex;
-    /*margin:0 0 0 1em;*/
     padding:0;
     display: flex;
     justify-content: flex-start;
 }
+
+
+.tabs-container-plans>ul{
+   /* display: inline-block;*/
+   width: 78%;
+   margin: auto ;
+}
+
+.tabs-container-plans>ul>li{
+    width:50%;
+}
+.tabs-container-plans>ul>li>a{
+    width:100%;
+    text-align: center;
+}
+
 
 .tabs-container h1 {
     margin: 0;
@@ -361,7 +376,7 @@ header {
     margin: 56px auto 70px;
 }
 
-.section-plans p {
+.paragraph-plans {
     text-align: center;
     font-size: 1.57em;
     line-height: 25px;
@@ -372,6 +387,91 @@ header {
     border-radius: 8px;
     font-weight: bold;
     font-size: 12px;
-    line-height: 10px;
+    line-height: 12px;
     padding: 8px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-plan {
+    padding: 2.125em;
+    /*width: 300px;*//*27%;*/
+    width: 300px;
+    border: 1.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 85px 0 0;
+}
+
+.card-plan h4 {
+    font-weight: 600;
+    font-size: 1.75em;
+    line-height: 25px;
+    margin: 0 0 10px;
+}
+
+.paragraph-plan {
+    text-align: left;
+    font-size: 1em;
+    line-height: 18px;
+    margin: 0 0 28px;
+}
+
+.plan-price {
+    font-weight: 600;
+    font-size: 2.625em;
+    line-height: 32px;
+    margin: 0 0 10px;
+}
+
+.paragraph-per-period {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 35px;
+}
+
+.plan-button {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: #000000;
+    padding: 9px ;
+    margin: 0 0 35px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration-line: none;
+
+}
+
+.feature-list {
+    display: flex;
+    align-items: center;
+    font-family: var(--secondary-font);
+    color: #808080;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin: 0 0 15px;
+}
+
+.feature-list::before {
+    content:"";
+    background-image: url("backgrounds/ok.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin: 0 24px 0 0;
 }
