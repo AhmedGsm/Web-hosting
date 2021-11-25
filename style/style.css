@@ -355,7 +355,7 @@ header {
 
 .section-plans {
     width: 76%;
-    margin: 0 auto 105px;
+    margin: 0 auto 105px 21%; 
 }
 
 .section-plans h2 {
@@ -474,4 +474,92 @@ header {
     width: 24px;
     height: 24px;
     margin: 0 24px 0 0;
+}
+
+.div-stories-title {
+   margin: 8px;  
+}
+
+
+.div-stories-title h3 {
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 64px;
+}
+
+.div-stories-title p {
+    font-size: 1.125em;
+    line-height: 32px;
+}
+
+.client-testimonial {
+    padding: 2.4em 4em;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.client-testimonial p {
+    font-family: Inter;
+    font-size: 1em;
+    line-height: 32px;
+}
+
+.client-testimonial h6 {
+    margin : 24px 0 0;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.paragraph-ceo {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #969BAB;
+}
+
+.section-clients-replies {
+    display: grid;
+    row-gap: 0;
+    column-gap: 0;
+    grid-template-columns: repeat(96, 1fr); 
+    grid-template-rows: repeat(71, 1fr);
+    width: 70%;
+    margin: 0 auto 84px;
+    font-family: var(--secondary-font);
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    background-image: url("backgrounds/quote.svg");
+    background-repeat: no-repeat;
+}
+
+.stories-title {
+    grid-area: 6/10/22/52;
+}
+
+.jpnl {
+     grid-area:11/55/43/97;
+     background-image: url("backgrounds/small-quote.svg");
+     background-repeat: no-repeat;
+     background-position: 7% 31%;
+
+ }
+
+.cli {
+    grid-area: 24/19/69/52;
+    background-image: url("backgrounds/small-quote.svg");
+    background-repeat: no-repeat;
+    background-position: 7% 31%;
+
+}
+
+.Leeveonbranding {
+    grid-area: 46/55/72/88;
+    background-image: url("backgrounds/small-quote.svg");
+    background-repeat: no-repeat;
+    background-position: 7% 31%;
 }
