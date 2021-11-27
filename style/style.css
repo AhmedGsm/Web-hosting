@@ -563,3 +563,49 @@ header {
     background-repeat: no-repeat;
     background-position: 7% 31%;
 }
+
+.section-advertising {
+    width: 83%;	
+    margin: 0px auto 106px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /* for media queries	 
+    margin: 0px 104px 106px 142px;	
+    margin: 0vw 8vw 7vw ;*/
+
+}
+
+.div-ads {
+    width: 37%;
+    font-family: var(--secondary-font);
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.div-ads h2 {
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 64px;
+    margin: 0 0 8px;
+}
+
+.div-ads p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.div-customers-logos {
+    width: 41%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+}
+
+.customer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
