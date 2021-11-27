@@ -242,7 +242,7 @@ header {
     background-size: contain;
 }
 
-.big-trianlge {
+.big-triangle {
     width: 5vw;
     height: 5vw;
     background-image: url("backgrounds/big-triangle.svg");
@@ -258,7 +258,7 @@ header {
     right: 0;
 }
 
-.small-left-trianlge {
+.small-left-triangle {
     width: 3vw;
     height: 3vw;
     background-image: url("backgrounds/small-left-triangle.svg");
@@ -608,4 +608,73 @@ header {
     justify-content: center;
     align-items: center;
     height: 120px;
+}
+
+.blue-section-container {
+    width: 88%;		
+    margin: 0px 6% 110px 5%;	
+    /*margin: 0px 93px 110px 75px;
+    margin: 0vw 6vw 8vw 5vw;*/
+    box-sizing: border-box;
+    padding: 0 1.9%;
+    position: relative;
+    
+}
+.blue-section-container .small-left-triangle {
+    top: 70%;
+    margin-left: -2%;
+}
+
+.blue-section-container .big-triangle {
+    top: 74%;
+}
+
+.blue-section {
+    background: #F7FAFE;
+    border-radius: 16px;
+    padding: 80px 0 88px;
+    display: flex;
+    flex-flow: wrap column;
+    background-image: url("backgrounds/small-right-triangle.svg");
+    background-repeat: no-repeat;
+    background-position:  35% 0%;
+    
+}
+
+.blue-section h1 {
+    width: 83%;	
+    margin: 0 7% 40px 10%;	
+    /*
+    margin: 80px 90px 40px 118px;	
+    margin: 6vw 6vw 3vw 8vw;*/
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 88px;
+    text-align: center;
+    color: #2E2E2E;
+
+}
+
+.get-intouch-button {
+    display: flex;
+    align-items: center;
+    background: #B00000;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    margin: 0 auto;
+    text-decoration-line: none;
+}
+
+.get-intouch-button::before {
+    content: "";
+    margin: 0 11px 0 0;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url("backgrounds/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
