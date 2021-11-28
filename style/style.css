@@ -15,6 +15,20 @@ body, ul, h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+/* Remove disk decoration from list item */
+.menu-item {
+    list-style-type: none;
+}
+
+/* Remove underline from (a)  link element */
+.menu-link {
+    text-decoration-line: none;
+    color: #000000
+}
+.color-white {
+    color: #FFFFFF;
+}
+
 
 .navbar-wrapper {
     width: 78%;
@@ -677,4 +691,45 @@ header {
     background-image: url("backgrounds/whatsapp.svg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+footer {
+    background: #B00000;
+    padding: 64px 7% 80px;
+    color: #FFFFFF;
+    font-family: var(--secondary-font);
+
+    font-size: 1em;
+    line-height: 32px;
+    color: #E6E6E6;
+    /*padding: 64px 115px 80px 104px;	
+    padding: 4vw auto 6vw;*/
+}
+
+.div-footer-menus {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    column-gap: 8%;
+}
+
+.footer-menu {
+    margin: 16px 0 0;
+}
+.footer-menu:first-child {
+    margin: 0;
+}
+
+.footer-menu h6 {
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.footer-menu li {
+    margin: 24px 0 0;
+}
+
+.paragraph-copyright {
+    margin: 104px 0 0;
 }
