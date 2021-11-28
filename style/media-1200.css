@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding: 0 3%;
+    }
+    
+    .media-1200-width-100 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-wrapper {
+    }
+}

@@ -15,6 +15,11 @@ body, ul, h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+/* Hide menu hamburger  */
+.menu-hamburger {
+    display: none;
+}
+
 /* Remove disk decoration from list item */
 .menu-item {
     list-style-type: none;
@@ -25,6 +30,7 @@ body, ul, h1, h2, h3, h4, h5, h6, p {
     text-decoration-line: none;
     color: #000000
 }
+
 .color-white {
     color: #FFFFFF;
 }
@@ -59,11 +65,9 @@ nav {
 .primary-nav li {
     flex-grow: 9;
     list-style-type: none;
-    display: flex;
+    /* display: flex; */
     align-items:center;
-    /*
-    align-content: center ;
-    */
+    align-content: center;
 }
 
 .primary-nav li a {
@@ -85,7 +89,7 @@ nav {
 }
 
 .primary-nav li:first-child {
-    flex-grow: 24;
+    /* flex-grow: 24; */
 }
 
 .primary-nav li:nth-child(5) {
@@ -110,6 +114,7 @@ nav {
     content:"";
     width: 20px;
     height: 20px;
+    display: inline-block;
     background-image: url("backgrounds/phone.svg");
     background-size: contain;
     background-position: center;
@@ -136,8 +141,7 @@ header {
 
 .tabs-container>ul {
     display: flex;
-    padding:0;
-    display: flex;
+    padding: 0;
     justify-content: flex-start;
 }
 
