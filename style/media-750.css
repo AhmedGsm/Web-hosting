@@ -1,6 +1,11 @@
 
 @media screen and (max-width: 750px) {
     
+    h1 {
+        font-size: 38px !important;
+        line-height: 40px !important;
+    }
+
     .services-container {
         width: 100%;
     }

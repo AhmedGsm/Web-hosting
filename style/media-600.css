@@ -1,5 +1,10 @@
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+
     .woman-image-container {
         width: 100vw; 
         height: 92vw; 

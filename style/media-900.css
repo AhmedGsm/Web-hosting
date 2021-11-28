@@ -1,6 +1,12 @@
 
 
 @media screen and (max-width: 900px) {
+    
+    h1 {
+        font-size: 45px !important;
+        line-height: 48px !important;
+    }
+    
     .navbar-wrapper {
         align-items: flex-start;
         position: relative;
@@ -25,7 +31,7 @@
     .display-initial {
         display: block;
     }
-    
+
     /* Hide menu hamburger  */
     .menu-hamburger {
         font-size: 20px;
