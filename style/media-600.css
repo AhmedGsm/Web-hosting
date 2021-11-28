@@ -1,4 +1,7 @@
 
 @media screen and (max-width: 600px) {
-    
+    .woman-image-container {
+        width: 100vw; 
+        height: 92vw; 
+    }
 }

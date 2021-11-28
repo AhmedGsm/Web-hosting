@@ -1,7 +1,21 @@
 
 @media screen and (max-width: 1000px) {
-    
+    .header {
+        flex-flow: wrap column-reverse;
+    }
     .nav {
         /*display: initial;*/
+    }
+
+    .services-container {
+        flex: 1 0 auto;
+        width: 80%;
+        margin:auto;
+    }
+
+    .woman-image-container {
+        width: 50vw; 
+        height: 46vw; 
+        margin:auto;
     }
 }
