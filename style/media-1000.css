@@ -1,11 +1,30 @@
 
 @media screen and (max-width: 1000px) {
-    
     h1 {
-        font-size: 50px !important;
-        line-height: 52px !important;
-    }
-
+        font-size: 58px !important;
+        line-height: 68px !important;
+        }
+        h2 {
+        font-size: 39px !important;
+        line-height: 46px !important;
+        }
+        h3 {
+        font-size: 35px !important;
+        line-height: 41px !important;
+        }
+        h4 {
+        font-size: 29px !important;
+        line-height: 34px !important;
+        }
+        h5 {
+        font-size: 25px !important;
+        line-height: 29px !important;
+        }
+        h6 {
+        font-size: 25px !important;
+        line-height: 29px !important;
+        }
+        
     .m-1000-wi-70 {
         width: 70%;
     }
