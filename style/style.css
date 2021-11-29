@@ -304,7 +304,7 @@ header {
     width: 46%;
 }
 
-.div-definition h3 {
+.div-definition h2 {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 3em;
@@ -357,7 +357,7 @@ header {
     text-align: center;
 }
 
-.feature h3 {
+.feature h5 {
     font-weight: bold;
     font-size: 1.25em;
     line-height: 30px;
