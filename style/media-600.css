@@ -4,9 +4,17 @@
         font-size: 32px !important;
         line-height: 35px !important;
     }
+    
+    .media-600-width-100 {
+        width: 100%;
+    }
 
     .woman-image-container {
         width: 100vw; 
         height: 92vw; 
+    }
+    
+    .div-definition {
+        flex: 1 0 auto;
     }
 }

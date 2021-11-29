@@ -7,6 +7,10 @@
         line-height: 48px !important;
     }
     
+    .media-900-width-80 {
+        width: 80%;
+    }
+
     .navbar-wrapper {
         align-items: flex-start;
         position: relative;
@@ -62,4 +66,5 @@
     .last-menu-item::before {
         content: initial;
     }
+    
 }

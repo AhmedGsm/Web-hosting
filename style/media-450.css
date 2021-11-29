@@ -5,10 +5,13 @@
         font-size: 30px !important;
         line-height: 32px !important;
     }
+    
     .nav {
         width: 90%;
     }
+
     .woman-image-container {
         display: none;
     }
+    
 }
