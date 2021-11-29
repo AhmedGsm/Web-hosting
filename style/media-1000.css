@@ -32,6 +32,7 @@
     .m-1000-flx-col {
         flex-flow: wrap column;
     }
+    
     .m-1000-flx-col-rev {
         flex-flow: wrap column-reverse;
     }

@@ -2,35 +2,42 @@
 
 @media screen and (max-width: 900px) {
     h1 {
-        font-size: 55px !important;
-        line-height: 64px !important;
-        }
-        h2 {
-        font-size: 37px !important;
-        line-height: 43px !important;
-        }
-        h3 {
-        font-size: 33px !important;
-        line-height: 39px !important;
-        }
-        h4 {
-        font-size: 27px !important;
-        line-height: 32px !important;
-        }
-        h5 {
-        font-size: 23px !important;
-        line-height: 27px !important;
-        }
-        h6 {
-        font-size: 24px !important;
-        line-height: 28px !important;
-        }
+    font-size: 55px !important;
+    line-height: 64px !important;
+    }
+    h2 {
+    font-size: 37px !important;
+    line-height: 43px !important;
+    }
+    h3 {
+    font-size: 33px !important;
+    line-height: 39px !important;
+    }
+    h4 {
+    font-size: 27px !important;
+    line-height: 32px !important;
+    }
+    h5 {
+    font-size: 23px !important;
+    line-height: 27px !important;
+    }
+    h6 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    }
         
-                
+    
+    .m-900-flx-col {
+        flex-flow: wrap column;
+    }            
+    .m-900-wi-100 {
+        width: 100%;
+    }
+            
     .m-900-wi-80 {
         width: 80%;
     }
-
+    
     .navbar-wrapper {
         align-items: flex-start;
         position: relative;
