@@ -6,14 +6,21 @@
         line-height: 52px !important;
     }
 
-    .media-1000-width-70 {
+    .m-1000-wi-70 {
         width: 70%;
     }
-
-    .header {
+    
+    .m-1000-flx-col {
+        flex-flow: wrap column;
+    }
+    .m-1000-flx-col-rev {
         flex-flow: wrap column-reverse;
     }
-    
+    /*
+    .header {
+        flex-flow: wrap column-reverse;
+    }*/
+
     .nav {
         /*display: initial;*/
     }
