@@ -213,7 +213,7 @@ header {
     display: flex;
 }
 
-.buttons-nav li{
+.buttons-nav li {
     list-style-type: none;
 }
 .link-button {
@@ -350,7 +350,7 @@ header {
 }
 
 .feature {
-    /*max-width: 260px;*/
+    max-width: 260px;
 }
 
 .feature-icon {
@@ -411,14 +411,14 @@ header {
 
 .cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
+    flex-flow: wrap row;
 }
 
 .card-plan {
     padding: 2.125em;
-    /*width: 300px;*//*27%;*/
-    width: 300px;
+    max-width: 300px;
     border: 1.5px solid #C4C4C4;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
