@@ -25,7 +25,17 @@
         line-height: 16px !important;
         }
         
-                    
+    
+    .m-450-flx-col {
+        flex-flow: wrap column;
+    }                
+    
+    .buttons-nav li {
+        width: 100%;
+        max-width: initial;
+        margin: 6px 0;
+    }
+
     .nav {
         width: 90%;
     }
