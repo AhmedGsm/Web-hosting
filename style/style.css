@@ -562,6 +562,7 @@ header {
     color: #18191F;
     background-image: url("backgrounds/quote.svg");
     background-repeat: no-repeat;
+    background-size: 14% 16%;
 }
 
 .stories-title {
@@ -581,7 +582,6 @@ header {
     background-image: url("backgrounds/small-quote.svg");
     background-repeat: no-repeat;
     background-position: 7% 31%;
-
 }
 
 .Leeveonbranding {

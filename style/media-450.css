@@ -43,4 +43,8 @@
     .woman-image-container {
         display: none;
     }
+
+    .client-testimonial {
+        padding: 18px;
+    }
 }

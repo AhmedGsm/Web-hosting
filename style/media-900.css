@@ -43,7 +43,6 @@
         position: relative;
     }
 
-
     .nav {
         width: 70%;
         position: absolute;
@@ -93,5 +92,7 @@
     .last-menu-item::before {
         content: initial;
     }
-    
+    .section-clients-replies {
+        display: block;
+    }
 }
