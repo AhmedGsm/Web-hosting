@@ -121,7 +121,7 @@ nav {
 }
 
 header {
-    width: 84%;
+    /* width: 84%; */
     margin: 0 auto 80px 8%;
     display: flex;
     justify-content: space-between;
@@ -592,7 +592,7 @@ header {
 }
 
 .section-advertising {
-    width: 83%;	
+    width: 83%;
     margin: 0px auto 106px;
     display: flex;
     justify-content: space-between;
@@ -602,7 +602,6 @@ header {
     /* for media queries	 
     margin: 0px 104px 106px 142px;	
     margin: 0vw 8vw 7vw ;*/
-
 }
 
 .div-ads {

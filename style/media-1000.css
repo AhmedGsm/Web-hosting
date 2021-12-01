@@ -30,7 +30,8 @@
     }
     
     .m-1000-flx-col {
-        flex-flow: wrap column;
+        /* flex-flow: wrap column; */
+        /* justify-content: flex-start; */
     }
     
     .m-1000-flx-col-rev {
