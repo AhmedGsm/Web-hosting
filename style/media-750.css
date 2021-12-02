@@ -36,5 +36,10 @@
         width: 80vw; 
         height: 73.6vw; 
     }
-
+    
+    .div-footer-menus {
+        /*grid-template-columns: minmax(auto-fit, 1fr);*/
+        /*column-gap: 0;*/
+        display: initial;
+    }
 }
