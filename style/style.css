@@ -354,12 +354,12 @@ header {
     flex-grow: 1;
     margin: 50px auto 130px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 260px);
+    grid-template-columns: repeat(auto-fit, minmax(min(260px,100%),1fr));
     justify-content: space-evenly;
 }
 
 .feature {
-    max-width: 260px;
+    margin-top: 8px;
 }
 
 .feature-icon {
@@ -427,12 +427,14 @@ header {
 
 .card-plan {
     padding: 2.125em;
-    max-width: 300px;
     border: 1.5px solid #C4C4C4;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     margin: 85px 0 0;
+    max-width: 300px;
+    /*min-width: 280px;*/
+    flex: 1 1 280px;
 }
 
 .card-plan h4 {
@@ -472,13 +474,12 @@ header {
     font-size: 14px;
     line-height: 32px;
     color: #000000;
-    padding: 9px ;
+    padding: 9px;
     margin: 0 0 35px;
     display: inline-block;
     width: 100%;
     text-align: center;
     text-decoration-line: none;
-
 }
 
 .feature-list {
@@ -725,7 +726,7 @@ footer {
 }
 
 .footer-menu {
-    margin: 16px 0 0;
+    margin: 25px 0 0;
 }
 .footer-menu:first-child {
     margin: 0;

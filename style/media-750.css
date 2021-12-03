@@ -42,4 +42,9 @@
         /*column-gap: 0;*/
         display: initial;
     }
+
+    .tabs-container li a {
+        padding: 5px 15px;
+    }
+
 }

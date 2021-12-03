@@ -38,4 +38,8 @@
     .div-definition {
         flex: 1 0 auto;
     }
+    
+    .tabs-container li a {
+        padding: 5px 10px;
+    }
 }

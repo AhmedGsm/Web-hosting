@@ -47,4 +47,8 @@
     .client-testimonial {
         padding: 18px;
     }
+    
+    .tabs-container li a {
+        padding: 4px 6px;
+    }
 }
