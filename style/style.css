@@ -8,6 +8,7 @@
 body, ul {
     margin: 0;
     padding: 0;
+    font-family: var(--primary-font);
 }
 
 .navbar-wrapper {
@@ -62,12 +63,7 @@ nav {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration-thickness: 2px;
 }
-/*
-.primary-nav li a:visited {
-    color: #09384b;
-    text-decoration-line: underline;
-}
-*/
+
 .primary-nav li:first-child {
     flex-grow: 24;
 }
@@ -82,7 +78,6 @@ nav {
 }
 
 .last-menu-item {
-    /*justify-content: flex-end;*/
     padding-left: 3%;
     flex-grow: 20;
 }
@@ -101,4 +96,74 @@ nav {
 }
  header {
      width: 84%;
+     margin: 0 auto 80px 8%;
  }
+
+ /* Tab container style */
+ .main-container {
+    width: 60%;
+}
+
+.services-container {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.tabs-container {
+}
+
+.tabs-container ul {
+    display: flex;
+    /*margin:0 0 0 1em;*/
+    padding:0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tabs-container h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 77px;
+    color: #2E2E2E;
+    margin: 26px 0 34px;
+}
+
+.tabs-container li {
+    list-style-type: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs-container li a {
+    padding: 5px 20px;
+    display: inline-block;
+    text-decoration-line: none;
+}
+
+.tabs-container .tab-content {
+    display: none;
+    /*padding: .3em 1em;*/
+    border-radius: 8px;
+}
+
+.hidden-button-tab {
+    color: rgba(214, 212, 212, 0.88);
+    border-bottom: 1px solid rgba(185, 157, 157, 0.88);
+}
+
+.displayed-button-tab {
+    font-style: normal;
+    font-weight: 600;
+    color: #B00000;
+    border-bottom: 1px solid #B00000;
+}
+
+.tab-content-paragraph {
+    font-family: var(--secondary-font);
+    font-size: em;
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+    color: #808080;
+}
+/* end tabs container style */
