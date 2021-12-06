@@ -121,7 +121,7 @@ nav {
 }
 
 header {
-    /* width: 84%; */
+    width: 84%;
     margin: 0 auto 80px 8%;
     display: flex;
     justify-content: space-between;
